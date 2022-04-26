@@ -85,4 +85,40 @@ Comentario em HTML <!-- Aqui vai o comentario -->
 Para emojis é preciso pegar o código do emojipedia depois do U+ (qualquer duvida ver exercicio 002) e passar assim &#x1F914; onde depois do x vem o codigo do emoji
 
 Capitulo 6:
+
+Não se pode usar toda e qualquer imagem livremente
+
+No google imagens vc pode pesquisar e entrar nas ferramentas e mudar o tipo de imagens para a segunda opção
+Unsplash e pexels são alguns exemplos de sites com imagens sem direitos autorais 
+
+GIMP -> photoshop gratuito 
+
+O jpeg costuma ser o formato mais utilizado por não ser um formato pesado
+O png é uma otima opçao tambem
+Mas depende do que vc precisa tem um formato de arquivo que se encaixa melhor
+
+O tamanho ideal para uma imagem na internet é de até 1500x1000 e a resoluçao é 72
+
+No CSS é possivel mudar o tamanho da imagem tambem, mas nao muda o tamanho do arquivo. Sendo assim é preciso editar a imagem pra deixar um arquivo que pese pouco e então fazer as ediçoes necessarias com o CSS
+
+Usando a tag img:
+<img src="logo-html.png" alt="Logo HTML">
+não é preciso digitar o src, se colocar o cursor dentro das aspas e utilicar o comando ctrl + espaco aparece as imagens na pasta
+
+Para imagens da web é so passar o endereco da imagem da web no src
+
+Favicon é o icone que fica na frente das abas e é possivel mudar esse icone
+
+Site para pegar icones: iconarchive (baixar como ico)
+
+favicon.cc é um site para desenhar icones
+
+favicon.io transforma varias coisas em icone
+
+e para ter o favicon é so adicionar no head:
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+Capitulo 7:
+
+
  
