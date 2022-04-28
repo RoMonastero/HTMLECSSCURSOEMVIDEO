@@ -119,6 +119,13 @@ e para ter o favicon é so adicionar no head:
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 Capitulo 7:
+Podemos ter varios h1, h2, h3, h4, h5 ou h6, tudo depende da hierarquia desse titulo na pagina
+
+para gerar um testo x no seu paragrafo é so escrever lorem dentro do <p></p> e dar enter
+
+Certas tags não devem ser mais utilizadas no HTML5, como <center></center>. Agora é necessario usar o css para esse tipo de alterção
+
+
 
 
  
