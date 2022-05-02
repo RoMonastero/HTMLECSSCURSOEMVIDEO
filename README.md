@@ -125,6 +125,40 @@ para gerar um testo x no seu paragrafo é so escrever lorem dentro do <p></p> e 
 
 Certas tags não devem ser mais utilizadas no HTML5, como <center></center>. Agora é necessario usar o css para esse tipo de alterção
 
+Capitulo 8:
+
+Para utilizar o negrito: <b></b> ou <strong></strong>(Forma semantica)
+
+Para utilizar o italico: <i></i> ou <em></em> (Forma semantica)
+
+Marcando texto: <mark></mark>
+
+mudando cor do mark: <mark style="background-color: lime;"></mark> (Dessa forma so muda a cor desse mark e nao de outros, para isso é preciso fazer de outra maneira (utilizando o css))
+ utilizando o css para o mark:
+ dentro do head: <style>
+        mark{
+            background-color: limegreen;
+        }
+    </style>
+
+texto grande: <big></big> -> tag obsoleta (melhor alterar o tamanho da letra no css)
+texto pequeno: <small></small>
+
+texto excluido: <del></del>
+texto inserido: <ins></ins>
+texto sobrescrito: <sup></sup>
+texto subscrito <sub></sub>
+
+deixar o texto como codigo fonte: <code></code> (nao organiza o codigo com identacao para isso utilize a tag <pre></pre>)
+
+shift + tab -> faz a funcao do tab, mas pra esquerda
+
+para criar uma citacao simples: <q></q>
+citacoes completas: <blockquote cite="aqui vai o link para a citacao da frase"></blockquote>
+abreviacoes = <abbr title="Hypertext Markup Language">HTML</abbr>
+texto invertido: <bdo dir="rtl"></bdo>
+
+Capitulo 9:
 
 
 
