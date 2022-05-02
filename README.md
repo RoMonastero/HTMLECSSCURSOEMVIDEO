@@ -160,6 +160,44 @@ texto invertido: <bdo dir="rtl"></bdo>
 
 Capitulo 9:
 
+Listas ordenadas (As listas que a ordem faz diferenca):
+<ol type="A"> <!--Sem o type é uma lista numerada de 1 a X-->
+    <li>lala</li>
+    <li>aaa</li>
+</ol>
+
+listas nao ordenadas (a ordem nao importa):
+<ul type="circle"> <!--Sem o type é uma lista com as bolinhas na frente-->
+    <li>lala</li>
+    <li>aaa</li>
+</ul>
+
+misturando tipos de listas:
+    <ol>
+        <li>NES</li>
+        <ul>
+            <li>Mario</li>
+            <li>Zelda</li>
+        </ul>
+        <li>Super Nintendo</li>
+        <ul>
+            <li>Mario</li>
+        <li>Zelda</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul>
+            <li>Minecraft</li>
+            <li>GTA</li>
+        </ul>     
+    </ol>
+
+Lista de Definicao:
+<dl>
+    <dt>Termo</dt>
+    <dd>Descricao</dd>
+</dl>
+
+Capitulo 10:
 
 
  
