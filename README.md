@@ -199,5 +199,31 @@ Lista de Definicao:
 
 Capitulo 10:
 
+SEO - é uma otimização para os mecanismos de busca te encontrarem
 
+link externo - aponta para um site q não é nosso
+usando links:
+<a href="www.aquivaiolink.com">teste</a>
+ou
+<a href="www.aquivaiolink.com" target="_blank" rel="external">teste</a> essas tags novas dizem que é um link externo e que será aberto uma nova janela quando o usuario clicar no link
+
+link interno -> é uma ligação entre outra pagina que esta associada ao mesmo projeto, para isso é preciso ter mais de uma página no projeto
+para um link interno:
+<a href="nome do caminho do arquivo" rel="next">Segunda Pagina</a> -> ctrl + espço no href mostra a lista de arquivos que podem ser usados para uma nova pagina 
+
+rel = "next" -> para navegar para a proxima pagina
+rel = "prev" -> para navegar para a pagina anterior
+rel = "nofollow" -> serve para links externos que não farao parte da indexação do site (ou não da um aval para o link)
+
+navegando para arquivos dentro de outras pastas:
+ <a href="noticias/page3.html" rel="next">pagina de noticias</a>
+
+ target="_self" -> serve para falar que nao é para abrir outra pagina
+
+
+Links para download:
+<a href="#">lalal</a> -> a # diz que é um link que não existe ainda (link vazio)
+<a href="livro/Currículo.zip" download="Currículo.pdf" type="application/zip">Baixar livro em ZIP</a> -> o type pode ser encontrado no site que esta no pdf da aula 10
+
+Dependendo do navegador o pdf nao será baixado com esses parametros, será apenas aberto
  
