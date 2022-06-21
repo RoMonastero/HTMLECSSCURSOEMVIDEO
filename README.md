@@ -231,3 +231,49 @@ Dependendo do navegador o pdf nao será baixado com esses parametros, será apen
  
 Capitulo 11:
 
+É muito importante entender que o usuario pode acessar o site por varias plataformas diferentes, sendo assim podem ter imagens de varios tamanhos, dependendo da tela do usuario
+
+tag <picture></picuture> -> existe uma tag img dentro tambem, mas permite a criacao de varias tags sources para ter varias imagens diferentes
+
+utilizando o picture e o source:
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="foto-g">
+    </picture>
+
+Colocando um audio no site:
+<audio src="media/happy-mistake.mp3" controls autoplay></audio> -> o autoplay serve para o audio ja comecar tocando (Maneira simplificada de criar o audio)
+
+Nem todo navegador vai aceitar o .mp3, mas existem alguns outros arquivos, como o wav e o ogg
+
+<audio preload="metadata" controls loop> -> loop faz o audio tocar em looping
+    <source src="media/happy-mistake.mp3" type="audio/mpeg">
+    <source src="media/happy-mistake.ogg" type="audio/ogg">
+    <source src="media/happy-mistake.wav" type="audio/wav">
+    <p>Infelizmente o seu navegador não consegue ouvit audio</p>
+</audio> -> jeito mais complexo de criar o audio no navegador, porem garante uma tratativa de erro caso não seja compativel com os tipos de audio
+
+Para baixar videos é so usar o pexels tambem
+handbreak -> software de video parecido com o gimp
+
+Colocando video localmente:
+<video src="media/meu-video.mp4" controls></video> -> colocando de forma simplificada
+
+<video controls poster="images/limoes-capa.png"> -> poster é a tamb do video
+        <source src="media/meu-video.mp4" type="video/mp4">
+        <source src="media/Meu-Video.m4v" type="video/mp4">
+        <source src="media/Meu-Video.webm" type="video/webm">
+        <p>Seu navegador nao tem compatibilidade com reproducao de videos</p>
+
+</video> -> Videos de forma mais complexa
+
+Videos hospedados localmente é algo que deixa mega caro a hospedagem do site
+
+Videos hospedados remotamente:
+No youtube é so clicar em compartilhar, clicar em incorporar e copiar o codigo que é passado no seu site
+outra opcao é o vimeo que funciona de forma parecida com o youtube
+
+Capitulo 12:
+
+

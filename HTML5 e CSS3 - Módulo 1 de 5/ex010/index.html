@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Midias em HTML5</title>
 </head>
 <body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos difentes ou aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="foto-g">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+   <audio preload="metadata" controls>
+      <source src="media/happy-mistake.mp3" type="audio/mpeg">
+      <source src="media/happy-mistake.ogg" type="audio/ogg">
+      <source src="media/happy-mistake.wav" type="audio/wav">
+      <p>Infelizmente o seu navegador não consegue ouvit audio. <a href="media/happy-mistake.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+   </audio>
     
 </body>
 </html>
