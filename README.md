@@ -226,4 +226,8 @@ Links para download:
 <a href="livro/Currículo.zip" download="Currículo.pdf" type="application/zip">Baixar livro em ZIP</a> -> o type pode ser encontrado no site que esta no pdf da aula 10
 
 Dependendo do navegador o pdf nao será baixado com esses parametros, será apenas aberto
+
+<li title="Use a tag &lt;p&gt;">Parágrafos</li> -> esse title serve para quando o mouse é passado em algum item da lista mostrar oq esta escrito dentro do title
  
+Capitulo 11:
+
