@@ -276,4 +276,22 @@ outra opcao é o vimeo que funciona de forma parecida com o youtube
 
 Capitulo 12:
 
+css inline -> é mudar as tags direto nas tags html
+A desvantagem é que é preciso mudar tag por tag o estilo da tag e o codigo fica super confuso
+
+css internos -> é utilizando o <style></style> no head do html sem utilizar outro arquivo
+A vantagem é que nap precisa mudar o estilo em cada uma das tags e caso nao for mudar o estilo em outras paginas é so usar localmente, ao inves de gerar outro arquivo
+A desvantagem é incomoda pq o estilo costuma ser bem longo e vai ocupar muito espaco e nao da para replicar os estilos em mais de uma pagina
+
+css externo -> é utilizado criando outro arquivo e chamando ele da seguinte forma:
+<link rel="stylesheet" href="style.css">
+
+@charset "UTF-8"; -> no arquivo css bem no inicio pode ser usado essa tag para dizer q o utf 8 sera utilizado
+
+É possivel utilizar mais de um arquivo css por pagina html
+
+É possivel utilizar as 3 formas de css ao mesmo tempo
+
+FIM MODULO 1
+
 
